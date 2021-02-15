@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CAD PROGRAM</title>
+    <link rel="stylesheet" href="CAD.css">
+  </head>
+  <body>
+
+
+
+
+    
+<canvas id="canvas" width="950" height="600"></canvas><br>
+<ul>
+  <li><button type="button" id="button" onclick="line_()" name="button">Line</button></li>
+  <li><button type="button" id="button" onclick="cyrcle_()" name="button">Cyrcle</button></li>
+  <li><button type="button" id="button" onclick="square_()" name="button">Square</button></li>
+  <li><button type="button" id="button" onclick="rectangle_()" name="button">Rectangle</button></li>
+  <li><button type="button" id="button" onclick="point_()" name="button">Point</button></li>
+  <li>
+
+    <select id="lineW" name="line">
+     <option value="1">1px</option>
+     <option value="2">2px</option>
+     <option value="3">3px</option>
+     <option value="4">4px</option>
+     <option value="5">5px</option>
+     <option value="6">6px</option>
+     <option value="7">7px</option>
+     <option value="8">8px</option>
+     <option value="9">9px</option>
+     <option value="10">10px</option>
+     <option value="11">11px</option>
+     <option value="12">12px</option>
+     <option value="13">13px</option>
+     <option value="14">14px</option>
+     <option value="15">15px</option>
+     <option value="16">16px</option>
+     <option value="17">17px</option>
+     <option value="18">18px</option>
+     <option value="19">19px</option>
+     <option value="20">20px</option>
+   </select>
+
+</li>
+  <li><button type="button" id="button" onclick="drawing()" name="button">Draw</button></li>
+    <li><button type="button" id="button" onclick="delete_()" name="button">Delete</button></li>
+    <li><button type="button" id="button" onclick="clear_()" name="button">Clear</button></li>
+
+</ul>
+
+
+    <script src="js/CAD.js"></script>
+
+  </body>
+</html>
